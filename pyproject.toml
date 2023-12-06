@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "opentele"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = ["3hx <code@3hx.me>"]
 readme = "README.md"
@@ -8,8 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 PyQt5-Qt5 = "5.15.2"
-telethon
-tgcrypto
+telethon = "1.33.0"
+tgcrypto = "1.2.5"
 
 
 [build-system]
