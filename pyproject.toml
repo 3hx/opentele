@@ -6,10 +6,11 @@ authors = ["3hx <code@3hx.me>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.4"
+python = ">=3.7,<4.0"
 PyQt5-Qt5 = "5.15.2"
 telethon = "1.33.0"
 tgcrypto = "1.2.5"
+pyqt5 = "^5.15.10"
 
 
 [build-system]
